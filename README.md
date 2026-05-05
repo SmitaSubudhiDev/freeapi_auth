@@ -78,54 +78,15 @@ Alternatively, you can open the file directly by double-clicking `index.html`.
 
 ### Login
 1. Navigate to the login section
-2. Enter your username/email and password
+2. Enter your username and password
 3. Click the "Login" button
 4. Upon successful authentication, you'll be redirected to the dashboard
 
 ### Registration
 1. Navigate to the registration section
-2. Fill in the required fields (username, email, password, confirm password)
+2. Fill in the required fields (username, email, password,)
 3. Click the "Register" button
 4. Your account will be created and you can proceed to login
-
-## Features in Detail
-
-### Form Validation
-- Email format validation
-- Password strength checking
-- Required field validation
-- User-friendly error messages
-
-### Session Management
-- Secure session handling
-- User state persistence
-- Logout functionality
-- Session timeout support
-
-### UI/UX
-- Smooth form transitions
-- Loading states
-- Success/error feedback
-- Remember me functionality
-
-## Browser Compatibility
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please ensure your code follows the project's coding standards and includes appropriate comments.
 
 ## Code Style
 
@@ -133,19 +94,7 @@ Please ensure your code follows the project's coding standards and includes appr
 - Add comments for complex logic
 - Follow consistent indentation (2 spaces for CSS/HTML, 2 spaces for JavaScript)
 - Keep functions small and focused
-
-## Issues and Bug Reports
-
-If you encounter any issues or bugs:
-
-1. Check the existing [GitHub Issues](https://github.com/SmitaSubudhiDev/freeapi_auth/issues)
-2. Create a new issue with:
-   - Clear description of the problem
-   - Steps to reproduce
-   - Expected vs. actual behavior
-   - Screenshots if applicable
-   - Browser and OS information
-
+  
 ## Performance
 
 - Lightweight implementation with minimal dependencies
@@ -153,45 +102,11 @@ If you encounter any issues or bugs:
 - Optimized CSS for quick rendering
 - Efficient JavaScript execution
 
-## Security Considerations
-
-- Input validation on all forms
-- XSS protection through proper HTML escaping
-- CSRF token implementation (when connected to backend)
-- Password best practices
-
-## Future Enhancements
-
-- [ ] Backend API integration
-- [ ] Two-factor authentication (2FA)
-- [ ] Social media login integration
-- [ ] Password reset functionality
-- [ ] Email verification
-- [ ] User profile management
-- [ ] Dark mode support
-- [ ] Accessibility improvements (WCAG compliance)
-
-## License
-
-This project is open source and available under the MIT License. See the LICENSE file for more details.
-
 ## Author
 
 **Smita Subudhi**
 - GitHub: [@SmitaSubudhiDev](https://github.com/SmitaSubudhiDev)
-- Email: smitasubudhi.dev@example.com
-
-## Support
-
-If you found this project helpful, please consider:
-- ⭐ Starring the repository
-- 🐛 Reporting bugs and issues
-- 💡 Suggesting new features
-- 🤝 Contributing to the project
-
-## Acknowledgments
-
-Thanks to all contributors and the open-source community for inspiration and support.
+- Email: smitasubudhi9@gmail.com 
 
 ---
 
