@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeAPI Auth</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-logo">FA</span>
+          <div>
+            <h1>FreeAPI Auth</h1>
+            <p>Login / Profile</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div class="welcome-text">
+            <p id="topbarSubtitle">Welcome</p>
+            <h2 id="topbarHeading">Sign in or register to continue</h2>
+          </div>
+          <button class="topbar-button hidden" id="logoutBtn">Logout</button>
+        </header>
+
+        <section class="dashboard-hero">
+          <article class="hero-card">
+            <div>
+              <h3>Start with authentication</h3>
+              <p>
+                Use the buttons below to open the login or sign up form. After
+                signing in, your profile data will appear.
+              </p>
+              <div class="hero-actions">
+                <button class="primary-button" id="showLoginBtn">Login</button>
+                <button class="secondary-button" id="showRegisterBtn">Sign Up</button>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="auth-section">
+          <div class="auth-tabs">
+            <button class="auth-tab active" data-mode="login">Login</button>
+            <button class="auth-tab" data-mode="register">Register</button>
+          </div>
+
+          <div class="auth-panels">
+            <form class="form-panel" id="loginForm">
+              <h3>Login</h3>
+              <div class="form-group">
+                <label for="loginUsername">Username</label>
+                <input type="text" id="loginUsername" name="username" required />
+              </div>
+              <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="password" required />
+              </div>
+              <div class="action-row">
+                <button class="primary-button" type="submit">Login</button>
+              </div>
+            </form>
+
+            <form class="form-panel hidden" id="registerForm">
+              <h3>Register</h3>
+              <div class="form-group">
+                <label for="registerName">Name</label>
+                <input type="text" id="registerName" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword" name="password" required />
+              </div>
+              <div class="action-row">
+                <button class="primary-button" type="submit">Register</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="auth-message" id="authMessage"></div>
+        </section>
+
+        <section class="profile-section hidden" id="profileSection">
+          <article class="profile-card" id="profileCard">
+            <div>
+              <h3 id="profileName">Profile</h3>
+              <p id="profileEmail">Your profile details appear here.</p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
